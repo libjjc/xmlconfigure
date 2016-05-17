@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tidyxml">
+      <UniqueIdentifier>{b26eab76-021e-495b-bf0c-52d76cc7cb57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tinyxml\tinystr.cpp">
+      <Filter>tidyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml.cpp">
+      <Filter>tidyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlerror.cpp">
+      <Filter>tidyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxmlparser.cpp">
+      <Filter>tidyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigureNode.cpp" />
+    <ClCompile Include="ConfigureVariant.cpp" />
+    <ClCompile Include="xmlconfigure.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tinyxml\tinystr.h">
+      <Filter>tidyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml.h">
+      <Filter>tidyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigureNode.h" />
+    <ClInclude Include="Export.h" />
+    <ClInclude Include="ConfigureVariant.h" />
+    <ClInclude Include="xmlconfigure.h" />
+  </ItemGroup>
+</Project>
